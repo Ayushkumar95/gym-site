@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness hub</title>
+
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        /*css reset*/
+      
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url("bg.png");
+            background-size: 100vw;
+        }
+
+        .left {
+            display: inline-block;
+            border: 2px solid red;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            border: 2px solid yellow;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+
+            display: inline-block;
+            border: 2px solid green;
+        }
+
+        .nevbar {
+            display: inline-block;
+        }
+
+        .nevbar li {
+            display: inline-block;
+
+        }
+
+        .nevbar li a {
+            color: black;
+            text-decoration: none;
+            padding: 34px 18px;
+            font-size: 15px;
+
+        }
+
+        .nevbar li a:hover,
+        .nevbar li a.active {
+            text-decoration: underline;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+
+        </div>
+        <!--mid box for navigation-->
+        <div class="mid">
+            <ul class="nevbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!--right box for for button-->
+        <div class="right">
+            i am right
+        </div>
+    </header>
+
+</body>
+
+</html>
